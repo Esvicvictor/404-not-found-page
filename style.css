@@ -63,7 +63,7 @@ footer span a{
     font-weight: 800;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     main{
         flex-direction: column;
     }
@@ -91,7 +91,7 @@ footer span a{
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     main{
         flex-direction: column;
     }
@@ -103,6 +103,7 @@ footer span a{
     }
     .main_text h1{
         width: 100%;
+        text-align: center;
     }
     .main_text p{
         width: 100%;
@@ -110,5 +111,8 @@ footer span a{
     }
     footer p{
         margin-top: 5rem;
+    }
+    body{
+        margin: 0 50px;
     }
 }
